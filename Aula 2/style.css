@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap');
 *{
     margin: 0 auto;
     padding: 0 auto;
@@ -17,12 +17,9 @@ p{
     text-align: left;
     color: rgb(141, 104, 1);
 }
-img{
-    align-items: center;
-}
 nav{
     width: 100%;
-    height: 40px;
+    height: 45px;
     background-color: #cdf283 ;
 }
 ul{
@@ -32,12 +29,23 @@ ul{
 }
 li,a{
     text-decoration: none;
-    font-size: 20px;
+    font-size: 30px;
     display: inline;
     color: black;
     padding: 5px 11px;
     cursor: pointer;
 }
 li:hover a{
-    color: blueviolet;
+     color: blueviolet;
+}
+.logo{
+    display: inline-block;
+    vertical-align: center;
+    max-width: 50px;
+    float: left;
+}
+.link{
+    text-decoration: underline;
+    font-size: 20px;
+    color: blue;
 }
